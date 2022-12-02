@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=JetBrains+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=JetBrains+Mono:wght@700&family=Open+Sans&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eceff2;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 64px auto;
+    
+    max-width: 960px;
+
+    
+}
+.imagem-principal {
+    width: 626px;
+    height: 486px;
+}
+
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.destino {
+    color: #EE24FF;
+}
+
+.negrito {
+    font-weight: bold;
+    color: black;
+}
+
+p {
+
+    color: #828282;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    
+}
+
+#footer section:nth-child(1){
+   display: flex;
+
+    
+    
+}
+
+.menu-footer  ul{
+    display: flex;
+    margin: auto;
+    gap: 64px;
+    list-style: none;
+}
+
+.menu-footer ul li {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 147.68%;
+
+    text-align: center;
+
+    color: #3F3D56;
+}
+
+.fundo-footer img{
+    width: 100vw;   
+    height: 176px;
+
+    margin-top: 64px;
+}
